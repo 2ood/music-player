@@ -1,0 +1,88 @@
+/* 
+* This file defines the project-wide style variables.
+* This file also initializes all the pre-defined browser style settings. 
+*/
+
+@import "fonts.css";
+
+:root {
+  /*font-sizes*/
+  --font-size-h1 : 106px;
+  --font-size-h2 : 66px;
+  --font-size-h3 : 53px;
+  --font-size-h4 : 37px;
+  --font-size-h5 : 26px;
+  --font-size-h6 : 22px;
+
+  --font-size-subtitle1 : 18px;
+  --font-size-subtitle2 : 15px;
+  --font-size-body1 : 18px;
+  --font-size-body2 : 15px;
+
+  /*font-styles*/
+  --font-style-family : "NunitoSans-Medium";
+  --font-style-generic-family : sans-serif;
+  --font-style-websafe-family : Roboto, Arial;
+
+
+  /*color codes*/
+  --color-primary : blue;
+  --color-primary-dark : indigo;
+  --color-primary-light : skyblue;
+  --color-secondary : gray;
+  --color-secondary-dark : lightgray;
+  --color-secondary-light : white;
+  --color-accent : red;
+  --color-accent-dark : #800020; /*burgundy*/
+  --color-accent-dark : lightpink;
+
+  /*view width breakpoint*/
+  /*This project supports media types in 4 groups*/
+  /*small - medium - large - extralarge*/
+  --breakpoint-vw-small-to-medium: 576px;
+  --breakpoint-vw-medium-to-large : 768px;
+  --breakpoint-vw-large-to-extralarge : 992px;
+
+
+}
+
+* {
+  margin : 0;
+  padding : 0;
+  box-sizing: border-box;
+  font-family: var(--font-style-family), var(--font-style-websafe-family), var(--font-style-generic-family);
+}
+
+h1 {font-size : 106px; font-weight: lighter;}
+h2 {font-size : 66px; font-weight: lighter;}
+h3 {font-size : 53px; font-weight: normal;}
+h4 {font-size : 37px; font-weight: normal;}
+h5 {font-size : 26px; font-weight: normal;}
+h6 {font-size : 22px; font-weight: medium;}
+
+subtitle1 {font-size : 18px; font-weight: normal;}
+subtitle2 {font-size : 15px; font-weight: medium;}
+
+button {
+  text-transform: capitalize;
+}
+
+/*mobile*/
+@media (max-width : 576px){
+
+}
+
+/*tablet*/
+@media (max-width : 768px) {
+
+}
+
+/*small pc screen*/
+@media (max-width : 992px) {
+
+}
+
+/*pc*/
+@media (min-width : 993px) {
+
+}
